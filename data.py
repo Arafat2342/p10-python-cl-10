@@ -28,6 +28,6 @@ if decimal_fraction_num > 0:
         decimal_fraction_num -= int(decimal_fraction_num)
         max_decimal_numlen += 1
 
-result = bi + decimal_bi
+result = float(bi + decimal_bi)
 
-print(f"Converting {p} to binary: {result}")
+print(f"Converting ({p})₁₀ to binary: ({result})₂")
